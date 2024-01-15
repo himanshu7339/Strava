@@ -1,6 +1,6 @@
 const Home = () => {
   const client_id = "119836";
-  const redirect_uri = "http://localhost:5173/dashboard";
+  const redirect_uri = "https://strava-api-login.vercel.app/dashboard";
 
   const authorization_uri = `https://www.strava.com/oauth/authorize?client_id=${client_id}&redirect_uri=${redirect_uri}&response_type=code&scope=activity:read_all`;
 
