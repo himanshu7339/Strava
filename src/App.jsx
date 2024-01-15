@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="https://strava-api-login.vercel.app/">
       <ToastContainer
         position="top-right"
         autoClose={300}
